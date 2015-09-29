@@ -1,0 +1,15 @@
+[	
+	{
+		"target": "/pa_ex1/units/land/base_bot/base_bot.json",
+		"destination": "/pa/units/land/base_bot/base_bot.json",		
+		"patch": [	
+		{
+			"op": "add",
+			"path": "/events/died",
+			"value": {		
+				"audio_cue": "/SE/Death/Bot",
+				"effect_spec": "/mod/default_explosion_bot.pfx bone_root"			
+			}
+		}]
+	}
+]

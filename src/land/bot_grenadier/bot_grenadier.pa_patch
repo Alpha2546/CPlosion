@@ -1,0 +1,14 @@
+[	
+	{
+		"target": "/pa/units/land/bot_grenadier/bot_grenadier.json",
+		"patch": [	
+		{
+			"op": "add",
+			"path": "/events/died",
+			"value": {		
+				"audio_cue": "/SE/Death/Bot",
+				"effect_spec": "/mod/default_explosion_bot.pfx bone_root"			
+			}
+		}]
+	}
+]

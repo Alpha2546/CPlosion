@@ -1,0 +1,15 @@
+[	
+	{
+		"target": "/pa_ex1/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv.json",
+		"destination": "/pa/units/land/fabrication_bot_combat_adv/fabrication_bot_combat_adv.json",			
+		"patch": [	
+		{
+			"op": "add",
+			"path": "/events/died",
+			"value": {		
+				"audio_cue": "/SE/Death/Bot",
+				"effect_spec": "/mod/default_explosion_bot_t2.pfx bone_root"		
+			}
+		}]
+	}
+]

@@ -1,0 +1,15 @@
+[	
+	{
+		"target": "/pa_ex1/units/land/fabrication_vehicle/fabrication_vehicle.json",
+		"destination": "/pa/units/land/fabrication_vehicle/fabrication_vehicle.json",			
+		"patch": [	
+		{
+			"op": "add",
+			"path": "/events/died",
+			"value": {		
+				"audio_cue": "/SE/Death/Veh",
+				"effect_spec": "/mod/default_explosion_bot.pfx bone_root"			
+			}
+		}]
+	}
+]

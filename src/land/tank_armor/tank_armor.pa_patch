@@ -1,0 +1,14 @@
+[	
+	{
+		"target": "/pa/units/land/tank_armor/tank_armor.json",
+		"patch": [	
+		{
+			"op": "add",
+			"path": "/events/died",
+			"value": {		
+				"audio_cue": "/SE/Death/Veh",
+				"effect_spec": "/mod/default_explosion_big.pfx bone_root"			
+			}
+		}]
+	}
+]

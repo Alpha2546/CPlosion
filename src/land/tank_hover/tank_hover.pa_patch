@@ -1,0 +1,15 @@
+[	
+	{
+		"target": "/pa_ex1/units/land/tank_hover/tank_hover.json",
+		"destination": "/pa/units/land/tank_hover/tank_hover.json",			
+		"patch": [	
+		{
+			"op": "add",
+			"path": "/events/died",
+			"value": {		
+				"audio_cue": "/SE/Death/Veh",
+				"effect_spec": "/mod/default_explosion_big.pfx bone_root"			
+			}
+		}]
+	}
+]

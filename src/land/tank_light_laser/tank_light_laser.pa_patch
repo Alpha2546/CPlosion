@@ -1,0 +1,14 @@
+[	
+	{
+		"target": "/pa/units/land/tank_light_laser/tank_light_laser.json",
+		"patch": [	
+		{
+			"op": "add",
+			"path": "/events/died",
+			"value": {		
+				"audio_cue": "/SE/Death/Veh",
+				"effect_spec": "/mod/default_explosion_bot.pfx bone_root"			
+			}
+		}]
+	}
+]

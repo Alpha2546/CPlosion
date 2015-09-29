@@ -1,0 +1,15 @@
+[	
+	{
+		"target": "/pa_ex1/units/land/bot_tesla/bot_tesla.json",
+		"destination": "/pa/units/land/bot_tesla/bot_tesla.json",		
+		"patch": [	
+		{
+			"op": "add",
+			"path": "/events/died",
+			"value": {		
+				"audio_cue": "/SE/Death/Bot",
+				"effect_spec": "/mod/default_explosion_bot.pfx bone_root"			
+			}
+		}]
+	}
+]
