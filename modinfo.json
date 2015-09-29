@@ -1,6 +1,20 @@
 {
-    "context": "client",
-    "build": "88288",
-    "date": "2015/09/30",
-    "identifier": "no.mod.info.supplied"
+  "context": "client",
+  "identifier": "nl.pa.Alpha.CPlosion",
+  "display_name": "CPlosion Titans",
+  "description": "Changes explosion for land,air,naval and orbital units into cool looking teamcoloured ones!",
+  "author": "Alpha2546",
+  "version": "6.5",
+  "build": "87296",
+  "date": "2015/09/30",
+  "signature": "not yet implemented",
+  "forum": "https://forums.uberent.com/threads/alphas-particle-effect-workshop-titans.70423/",
+  "icon": "http://s1.postimg.org/alefdd1yz/CPlosion.jpg?noCache=1414088361",
+  "category": [
+	  "in-game",
+	  "shader",
+	  "colours",
+	  "explosion"
+    ],
+  "priority": 100
 }
